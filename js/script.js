@@ -1,9 +1,9 @@
 const full_table = document.getElementById("projects_table");
 const categorySelector = document.getElementById("category_selector");
 
-const numbers = [3, 4, 6, 7, 8, 9, 10];
+const numbers = [3, 5, 6, 7, 8, 9, 10];
 const names = ["Анкета", "Список покупок", "Фреймворки CSS", "Figma", "Tilda", "Мини-портфолио", "Галерея артефактов"];
-const datas = ["Создавали анкету с помощью HTML и изучали метод POST", "Создание таблицы со стилями CSS", "Изучали фреймворки CSS", "Делали макет страницы в Figma и переносили его в HTML", "Делали макет страницы в Tilda", "Создаваи свое мини-портфолио с использованием JS", "Создавали генерацию постов используя JS"];
+const datas = ["Создавали анкету с помощью HTML и изучали метод POST", "Создание таблицы со стилями CSS и адаптивностью", "Изучали фреймворки CSS", "Делали макет страницы в Figma и переносили его в HTML", "Делали макет страницы в Tilda", "Создаваи свое мини-портфолио с использованием JS", "Создавали генерацию постов используя JS"];
 const categories = ["html", "css", "css", "shablon", "shablon", "js", "js"];
 
 for (let i = 0; i < numbers.length; i++) {
