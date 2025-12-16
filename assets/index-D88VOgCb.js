@@ -2,5 +2,5 @@
     <td>Практика ${c[t]}</td>
     <td>${d[t]}</td>
     <td>${u[t]}</td>
-    <td><a href="./components/prakt${c[t]}/index2.html">Практика ${c[t]}</a></td>
+    <td><a href="./components/prakt${c[t]}/index.html">Практика ${c[t]}</a></td>
     `,i.appendChild(o)}a.addEventListener("change",function(){const t=a.value,o=document.querySelectorAll(".row");t.length>0?o.forEach(s=>{const n=s.dataset.category.toLowerCase();t===""||n.includes(t)?s.style.display="table-row":s.style.display="none"}):o.forEach(s=>{s.style.display="table-row"})});
