@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.add-form {
+    margin: 10px;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+.card {
+    margin: 10px;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+.favorite {
+    background-color: #9fc39f;
+}
+
+.mouseOvered {
+    background-color: #b6d8d8;
+}

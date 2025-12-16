@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 27px;
+}
+
+
+body {
+    background-color: #dda0dd;
+}
+
+.main {
+    border: 1px solid black;
+
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    max-width: 50vw;
+    padding-left: 3px;
+    padding-right: 3px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.theadd {
+    background-color: palevioletred;
+    
+}

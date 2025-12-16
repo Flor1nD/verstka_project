@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета студента</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        
+
+        
+        <div style="
+        margin-left: 25%;
+        margin-right: 25%;
+        align-content: center;
+        max-width: 50%;
+        height: 100%;
+        background-color: aqua;
+        padding-right: 3%;
+        padding-left: 3%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        ">
+            <h1 style="align-self: center;">Ваша анкета</h1>
+
+            <label for="name">Имя:</label>
+            <br>
+            <input type="text" id="name" name="username" required>
+
+            <br>
+
+            <label for="surname">Фамилия:</label>
+            <br>
+            <input type="text" id="surname" name="userSurname" required>
+            
+            <br>
+
+            <label for="age">Возраст:</label>
+            <br>
+            <input placeholder="от 10 до 100" type="number" id="age" name="userage" required min="10" max="100">
+
+            <br>
+
+            <label for="gender">Пол:</label>
+            <br>
+            <label>
+                <input type="radio" name="gender" checked> 
+                Мужской
+            </label>
+
+            <label>
+                <input type="radio" name="gender">
+                Женский
+            </label>
+
+            <br>
+            
+            <label for="age">Любимый язык:</label>
+            <br>
+            <select name="age">
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>Rust</option>
+            </select>
+            <br>
+
+            <label for="about">О себе:</label>
+            <textarea name="about"></textarea>
+
+
+            <br>
+
+            <label for="assepting">Согласие на обработку <input type="checkbox" name="assepting"></label>
+            
+            <label for="assepting">Согласие на обработку <input type="checkbox" name="assepting"></label>
+            
+            <br>
+
+            <button type="submit">Отправить</button>
+            <br>
+            <button type="reset">Очистить форму</button>
+            <br>
+        </div>
+    </form>
+</body>
+</html>

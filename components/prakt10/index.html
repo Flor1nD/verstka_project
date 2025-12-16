@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>КАВО - Галерея артефактов</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body id="body">
+    <div class="add-form">
+        <input id="artifact-title" placeholder="Название">
+        <input id="artifact-category" placeholder="Категория">
+        <input id="artifact-image" placeholder="URL изображения">
+        <button id="add-btn">Добавить артефакт</button>
+<!--        <input id="artifact-filter" placeholder="Поиск по фильтру">-->
+        <select id="artifact-categories">
+            <option value="">Все артефакты</option>
+        </select>
+        <p>Всего артефактов: <span id="artifacts-count">0</span></p>
+    </div>
+
+
+    <div id="gallery"></div>
+</body>
+</html>
