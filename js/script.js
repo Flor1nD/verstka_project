@@ -14,7 +14,7 @@ for (let i = 0; i < numbers.length; i++) {
     <td>Практика ${numbers[i]}</td>
     <td>${names[i]}</td>
     <td>${datas[i]}</td>
-    <td><a href="./components/prakt${numbers[i]}/index.html">Практика ${numbers[i]}</a></td>
+    <td><a href="/components/prakt${numbers[i]}/index.html">Практика ${numbers[i]}</a></td>
     `
     full_table.appendChild(row);
 }
