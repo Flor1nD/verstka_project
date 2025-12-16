@@ -4,16 +4,11 @@
         margin: 0;
         box-sizing: border-box;
         font-size: 10px;
-
     }
 
     body {
         color: white;
-        background: linear-gradient(#3b3b42, #151515);
-    }
-
-    .body {
-        height: 100vh;
+        background-color: #323232;
     }
 
     header {
@@ -85,12 +80,7 @@
 
     body {
         color: white;
-        background: linear-gradient(#3b3b42, #151515);
-    }
-
-    .body {
-
-        height: 100vh;
+        background-color: #323232;
     }
 
     header {
