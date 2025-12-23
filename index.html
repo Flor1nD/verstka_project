@@ -9,17 +9,25 @@
     <link rel="stylesheet" href="./css/styles.css">
 
 </head>
-<body>
-    <div class="body">
+<body class="light">
+    <div>
         <header>
-            <img src="./assets/avatar.jpg" alt="Лого" width="69" height="69" style="border-radius: 50%;" loading="lazy">
-            <h2>Мои проекты</h2>
-            <h2>Front-End разработчик</h2>
+            <h2>Портфолио</h2>
+            <button id="changeTheme">Темная тема</button>
 
         </header>
 
         <div id="container" class="container">
-            <select id="category_selector" class="selector">
+            <div class="info">
+                <img src="./assets/avatar.jpg" alt="Лого" width="69" height="69" style="border-radius: 50%;" loading="lazy">
+                <div class="content">
+                    <p>Константин Денисович</p>
+                    <p>Front-End разработчик</p>
+                    <p>Аккаунт на GitHub: <a href="https://github.com/Flor1nD" target="_blank">Flor1nD</a></p>
+                </div>
+            </div>
+
+            <select id="category_selector" class="selector" style="margin-bottom: 25px">
                 <option value="">Все</option>
                 <option value="html">html</option>
                 <option value="css">css</option>
@@ -29,18 +37,18 @@
 
             <table id="projects_table">
                 <tr>
-                    <th colspan="4">Все проекты</th>
+                    <th colspan="4">Мои проекты</th>
                 </tr>
                 <tr>
-                    <th>Номер практики</th>
-                    <th>Название практики</th>
-                    <th>Что делали</th>
-                    <th>Ссылка на практику</th>
+                    <th>Номер проекта</th>
+                    <th>Название проекта</th>
+                    <th>Что делал</th>
+                    <th>Ссылка на проект</th>
                 </tr>
                 <tr>
                     <td>Свой проект</td>
                     <td>Router</td>
-                    <td>Делал API-запросы, реализовывал роутинг, изучал typescript</td>
+                    <td>Выполнял API-запросы, реализовывал роутинг, изучал typescript</td>
                     <td><a href="https://flor1nd.github.io/router-project/">router_project</a></td>
                 </tr>
             </table>

@@ -6,9 +6,22 @@
         font-size: 10px;
     }
 
-    body {
+    .light {
+        color: black;
+        background-color: #ffffff;
+    }
+
+    .light a {
+        color: black;
+    }
+
+    .dark {
         color: white;
         background-color: #323232;
+    }
+
+    .dark a {
+        color: white;
     }
 
     header {
@@ -21,10 +34,6 @@
         padding: 1vh 5vw;
     }
 
-    a {
-        text-decoration: none;
-        color: white;
-    }
 
     td {
         border: 1px solid grey;
@@ -67,6 +76,19 @@
         flex-direction: row;
         justify-content: space-around;
     }
+
+    .info {
+        width: 80%;
+        background-color: #8f8fe4;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        padding: 1vh 5vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+    }
 }
 
 @media (min-width: 780px) {
@@ -78,9 +100,22 @@
 
     }
 
-    body {
+    .light {
+        color: black;
+        background-color: #ffffff;
+    }
+
+    .light a {
+        color: black;
+    }
+
+    .dark {
         color: white;
         background-color: #323232;
+    }
+
+    .dark a {
+        color: white;
     }
 
     header {
@@ -91,12 +126,11 @@
         background-color: #8f8fe4;
         align-items: center;
         padding: 1vh 5vw;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        height: 7vh;
     }
 
-    a {
-        text-decoration: none;
-        color: white;
-    }
 
     td {
         border: 1px solid grey;
@@ -116,7 +150,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
     }
 
     .projects_table {
@@ -138,5 +171,18 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    .info {
+        width: 40%;
+        background-color: #8f8fe4;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        padding: 1vh 5vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
     }
 }

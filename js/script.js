@@ -1,5 +1,7 @@
 const full_table = document.getElementById("projects_table");
 const categorySelector = document.getElementById("category_selector");
+const changeThemeBtn = document.getElementById("changeTheme");
+const body = document.querySelector("body");
 
 const numbers = [3, 5, 6, 7, 8, 9, 10];
 const names = ["Анкета", "Список покупок", "Фреймворки CSS", "Figma", "Tilda", "Мини-портфолио", "Галерея артефактов"];
@@ -42,4 +44,17 @@ categorySelector.addEventListener('change', function() {
         })
     }
 
+})
+
+changeThemeBtn.addEventListener("click", () => {
+    if (body.classList.contains("light")) {
+        body.classList.remove("light");
+        body.classList.toggle("dark");
+        changeThemeBtn.textContent = "Светлая тема";
+    }
+    else {
+        body.classList.remove("dark");
+        body.classList.toggle("light");
+        changeThemeBtn.textContent = "Темная тема";
+    }
 })
