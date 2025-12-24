@@ -32,6 +32,8 @@
         background-color: #8f8fe4;
         align-items: center;
         padding: 1vh 5vw;
+        position: fixed;
+        top: 0;
     }
 
 
@@ -133,6 +135,8 @@
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
         height: 7vh;
+        position: fixed;
+        top: 0;
     }
 
 
